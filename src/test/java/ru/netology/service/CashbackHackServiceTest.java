@@ -6,10 +6,11 @@ import org.junit.Test;
 public class CashbackHackServiceTest {
 
     CashbackHackService service = new CashbackHackService();
+
     @Test
     public void lowerLimitValueamountTest() {
 
-        Assert.assertEquals(1000,service.remain(0));
+        Assert.assertEquals(1000, service.remain(0));
 
     }
 
